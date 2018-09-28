@@ -37,6 +37,6 @@ router.get('/hexagram/random', (ctx, next) => {
 app.use(logger())
 app.use(router.routes())
 app.use(router.allowedMethods())
-const server = app.listen(3000)
+const server = app.listen(8082)
 
 module.exports = server

@@ -1,0 +1,24 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "parserOptions": {
+          "ecmaVersion": 2018,
+          "sourceType": "module"
+      },
+  "rules": {
+    "semi": ["error", "never"],
+    "prefer-arrow-callback": ["off"],
+    "no-console": ["off"],
+    "arrow-parens": ["off"],
+    "no-return-await": ["off"],
+    "sort-keys": ["off"],
+    "no-trailing-spaces": "error",
+    "comma-dangle": ["off"],
+    "quotes": ["error", "single"],
+    "max-len": ["off"],
+    "camelcase": ["off"]
+  }
+}

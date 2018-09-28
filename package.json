@@ -1,0 +1,31 @@
+{
+  "name": "hexagrams",
+  "version": "0.0.1",
+  "description": "Hexagram generator",
+  "main": "hexagrams.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "lint": "eslint .",
+    "start": "node hexagrams.js",
+    "dev": "nodemon hexagrams.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "hamljs": "^0.6.2",
+    "koa": "^2.5.3",
+    "koa-logger": "^3.2.0",
+    "koa-render": "^0.2.1",
+    "koa-router": "^7.4.0",
+    "koa-views": "^6.1.4",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.18.0",
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
+  }
+}

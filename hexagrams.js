@@ -17,8 +17,12 @@ router.get('/', (ctx, next) => {
  ctx.body = 'Hello World!'
 })
 
+router.get('/hexagram/:id', (ctx, next) => {
+  let theHexagram = require("./data/" + ctx.params.id + ".json")
+  ctx.body = theHexagram
+})
 
-router.get('/hexagram/random', (ctx, next) => {
+router.get('/hexagram/', (ctx, next) => {
   // "toss your coins"
   let hexNum = parseInt(Math.random() * 64) + 1
 
